@@ -1,0 +1,10 @@
+public
+book
+venv
+env
+temp
+tmp 
+
+*.bak*
+*.ini*
+public

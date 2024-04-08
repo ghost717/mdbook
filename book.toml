@@ -1,0 +1,30 @@
+[book]
+authors = ["ghost717"]
+language = "en"
+multilingual = false
+src = "src"
+title = "My MDBook"
+
+[preprocessor.theme]
+pagetoc = true
+sidebar-width = "250px"
+
+[output.html]
+default-theme = "ayu"
+git-repository-url = ""
+additional-css = ["theme/pagetoc.css"]
+additional-js = ["theme/pagetoc.js"]
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.playground]
+editable = true
+
+[output.html.print]
+enable = true
+
+[output.theme-ace]
+theme-white = "xcode"
+theme-dark = "monokai"

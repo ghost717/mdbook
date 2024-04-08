@@ -1,0 +1,19 @@
+[book]
+authors = ["zjp"]
+language = "en"
+multilingual = true
+src = "src"
+title = "test-book"
+
+[preprocessor.demo-pre]
+blow-up = true
+
+[output.html]
+[output.html.playground]
+editable = true
+
+[output.demo-post]
+ignores = ["Chapter 1"]
+deny-odds = true
+write-file = true
+

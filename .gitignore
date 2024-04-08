@@ -1,10 +1,3 @@
-public
-book
-venv
-env
-temp
-tmp 
-
+/target
 *.bak*
-*.ini*
-public
+*.ini* 
